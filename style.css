@@ -186,6 +186,7 @@ main {
 .s2--foot {
     font-size: 18px;
     color: #301D49;
+    position: absolute;
 }
 
 .s2--foot h1 {
@@ -460,12 +461,12 @@ footer {
     }
 
     .home__s1--menus p{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .home__s1--menus{
         overflow: auto;
-        gap: 15px;
+        gap: 10px;
     }
 
     .home__s1--search{
@@ -474,7 +475,7 @@ footer {
     }
 
     .s1--searchbar{
-        width: 60%;
+        width: 75%;
         padding: 10px;
     }
     
@@ -496,24 +497,29 @@ footer {
     }
 
     .s2--desc p{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .s2--desc h3{
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .s2--desc h1{
-        font-size: 45px;
+        font-size: 42px;
     }
 
     .s2--desc h5{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .s2--desc button{
-        font-size: 16px;
+        font-size: 15px;
         padding: 15px 20px;
+    }
+
+    .s2--desc{
+        left: 10px;
+        width: 300px;
     }
 
     .home__s3,.home__s4,.home__s5,.home__s6,.home__s7{
@@ -536,4 +542,10 @@ footer {
         margin-top: 25px;
     }
 
+}
+
+@media screen and (max-width:380px) {
+    .home__s1--menus{
+        display: none;
+    }
 }
