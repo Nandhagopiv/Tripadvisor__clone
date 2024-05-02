@@ -461,11 +461,10 @@ footer {
     }
 
     .home__s1--menus p{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .home__s1--menus{
-        overflow: auto;
         gap: 10px;
     }
 
@@ -475,13 +474,18 @@ footer {
     }
 
     .s1--searchbar{
-        width: 75%;
+        width: 100%;
         padding: 10px;
     }
     
     .s1--searchbutton button{
-        padding: 15px;
-        font-size: 14px;
+        padding: 10px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .s1--searchbutton{
+        width: 100%;
     }
 
     .home__s2 img{
