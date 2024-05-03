@@ -460,12 +460,20 @@ footer {
         display: none;
     }
 
-    .home__s1--menus p{
-        font-size: 13px;
+    .home__s1{
+        width: 90%;
     }
 
     .home__s1--menus{
-        gap: 10px;
+        display: flex;
+        text-wrap: nowrap;
+        overflow-x: auto;
+        width: 90%;
+        gap: 50px;
+    }
+
+    .home__s1--menus p{
+        font-size: 18px;
     }
 
     .home__s1--search{
@@ -546,10 +554,4 @@ footer {
         margin-top: 25px;
     }
 
-}
-
-@media screen and (max-width:380px) {
-    .home__s1--menus{
-        display: none;
-    }
 }
