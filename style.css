@@ -19,7 +19,7 @@ header {
     justify-content: center;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     background-color: white;
 }
 
@@ -443,6 +443,91 @@ footer {
     width: 100%;
 }
 
+.award{
+    width: 100%;
+    background-color: #FFF7E1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.award--head{
+    width: 75%;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    margin: 50px;
+}
+
+.award--head button{
+    width: max-content;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+}
+
+.award--head h1{
+    width: 400px;
+    margin-bottom: 25px;
+    font-size: 43px;
+}
+
+.award--head p{
+    width: 400px;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.award--head img{
+    height: 100px;
+}
+
+.award--orange{
+    width: 235px;
+    height: 235px;
+    background-color: #F0B461;
+    position: absolute;
+    border-radius: 50%;
+    left: 45%;
+    top: -4%;
+}
+
+.award--green{
+    width: 235px;
+    height: 235px;
+    background-color: #50E0A2;
+    position: absolute;
+    border-radius: 50%;
+    left: 68%;
+    bottom: -2%;
+}
+
+.award--image{
+    width: 850px;
+    height: 375px;
+    position: absolute;
+    border-radius: 200px;
+    transform: rotateZ(-43deg);
+    top: 18%;
+    left: 35%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.award--image img{
+    height: 700px;
+    position: absolute;
+    top: -33%;
+    left: 0;
+    transform: rotate(43deg);
+}
+
 @media screen and (max-width:950px) {
     .nav--mobileview {
         display: flex;
@@ -554,4 +639,44 @@ footer {
         margin-top: 25px;
     }
 
+    .award{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .award--head{
+        width: 100%;
+        margin: 50px 10px;
+    }
+
+    .award--image{
+         left: -22%;
+         top: 63%;
+         height: 300px;
+         width: 650px;
+    }
+
+    .award--green{
+        width: 175px;
+        height: 175px;
+        bottom: 2%;
+        left: 62%;
+    }
+
+    .award--orange{
+        width: 175PX;
+        height: 175PX;
+        top: 55%;
+        left: -2%;
+    }
+
+    .award--image img{
+        width: 800px;
+        height: 600px;
+        top: -20%;
+    }
+
+    .award--foot{
+        height: 500px;
+    }
 }
